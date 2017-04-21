@@ -1,0 +1,45 @@
+{
+  "name": "ensembl-rest-client",
+  "version": "1.0.0",
+  "description": "A client for the Ensembl REST API using the axios requests library.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peatroot/ensembl-rest-client"
+  },
+  "keywords": [
+    "Ensembl",
+    "REST"
+  ],
+  "author": "Gareth Peat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peatroot/ensembl-rest-client/issues"
+  },
+  "homepage": "https://github.com/peatroot/ensembl-rest-client",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^4.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.0"
+  }
+}
